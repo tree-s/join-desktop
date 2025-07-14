@@ -5,7 +5,7 @@
   "license": "GPL-3.0-or-later",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/joaomgcd/JoinDesktop/releases/download/v1.1.3/Join.Desktop.Setup.1.1.3.exe#/dl.7z",
+      "url": "https://github.com/joaomgcd/JoinDesktop/releases/download/v1.1.3/Join.Desktop.Setup.1.1.3.exe",
       "hash": "A19AFFB0CC0DEF3DCDDCF13B8FEC987F640E3BE58A660B145F7EEC85556E0D24"
     }
   },
@@ -30,6 +30,6 @@
     "github": "joaomgcd/JoinDesktop"
   },
   "autoupdate": {
-    "url": "https://github.com/joaomgcd/JoinDesktop/releases/download/v$version/Join.Desktop.Setup.$version.exe#/dl.7z"
+    "url": "https://github.com/joaomgcd/JoinDesktop/releases/download/v$version/Join.Desktop.Setup.$version.exe"
   }
 }
