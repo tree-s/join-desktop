@@ -9,10 +9,10 @@
       "hash": "A19AFFB0CC0DEF3DCDDCF13B8FEC987F640E3BE58A660B145F7EEC85556E0D24"
     }
   },
-  "bin": "JoinDesktop.exe",
+  "bin": "Join Desktop.exe",
   "shortcuts": [
     [
-      "JoinDesktop.exe",
+      "Join Desktop.exe",
       "Join Desktop"
     ]
   ],
