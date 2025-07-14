@@ -11,7 +11,7 @@
   },
   "installer": {
     "script": [
-      "7z x \"$dir\\JoinDesktop-Setup-1.1.3.exe\" -o\"$dir\\stage1\"",
+      "7z x \"$dir\\Join.Desktop.Setup.1.1.3.exe\" -o\"$dir\\stage1\"",
       "7z x \"$dir\\stage1\\com.joaomgcd.join-1.1.3-full.nupkg\" -o\"$dir\\stage2\"",
       "Copy-Item \"$dir\\stage2\\lib\\net45\\*\" \"$dir\" -Recurse -Force",
       "Remove-Item \"$dir\\stage1\" -Recurse -Force",
