@@ -9,6 +9,16 @@
       "hash": "A19AFFB0CC0DEF3DCDDCF13B8FEC987F640E3BE58A660B145F7EEC85556E0D24"
     }
   },
+  "installer": {
+    "script": [
+      "7z x \"$dir\\JoinDesktop-Setup-1.1.3.exe\" -o\"$dir\\stage1\"",
+      "7z x \"$dir\\stage1\\com.joaomgcd.join-1.1.3-full.nupkg\" -o\"$dir\\stage2\"",
+      "Copy-Item \"$dir\\stage2\\lib\\net45\\*\" \"$dir\" -Recurse -Force",
+      "Remove-Item \"$dir\\stage1\" -Recurse -Force",
+      "Remove-Item \"$dir\\stage2\" -Recurse -Force",
+      "Remove-Item \"$dir\\JoinDesktop-Setup-1.1.3.exe\" -Force"
+    ]
+  },
   "bin": "Join Desktop.exe",
   "shortcuts": [
     [
