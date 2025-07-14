@@ -20,10 +20,6 @@
     "github": "joaomgcd/JoinDesktop"
   },
   "autoupdate": {
-    "url": "https://github.com/joaomgcd/JoinDesktop/releases/download/v$version/JoinDesktop-Setup-$version.exe",
-    "hash": {
-      "url": "https://github.com/joaomgcd/JoinDesktop/releases/download/v$version/sha256sums.txt",
-      "mode": "keyvalue"
-    }
+    "url": "https://github.com/joaomgcd/JoinDesktop/releases/download/v$version/JoinDesktop-Setup-$version.exe"
   }
 }
