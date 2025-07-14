@@ -16,7 +16,7 @@
       "Copy-Item \"$dir\\stage2\\lib\\net45\\*\" \"$dir\" -Recurse -Force",
       "Remove-Item \"$dir\\stage1\" -Recurse -Force",
       "Remove-Item \"$dir\\stage2\" -Recurse -Force",
-      "Remove-Item \"$dir\\JoinDesktop-Setup-1.1.3.exe\" -Force"
+      "Remove-Item \"$dir\\Join.Desktop.Setup.1.1.3.exe\" -Force"
     ]
   },
   "bin": "Join Desktop.exe",
